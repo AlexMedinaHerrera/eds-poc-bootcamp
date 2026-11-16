@@ -1,0 +1,36 @@
+.aviso {
+  position: relative;
+  padding: 16px 48px 16px 20px;
+  border-left: 6px solid #0a6cff;
+  border-radius: 4px;
+  background-color: #eef4ff;
+}
+
+.aviso.importante {
+  border-left-color: #ff8200;
+  background-color: #fff3e6;
+}
+
+.aviso .aviso-title {
+  margin-bottom: 8px;
+  font-size: var(--heading-font-size-s);
+  font-weight: 700;
+}
+
+.aviso .aviso-body p {
+  margin: 0;
+}
+
+.aviso .aviso-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  margin: 0;
+  padding: 4px 10px;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+}
