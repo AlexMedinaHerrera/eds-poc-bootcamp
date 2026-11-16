@@ -9,7 +9,13 @@
 
 .cards > ul > li {
   border: 1px solid #dadada;
+  border-top: 4px solid #ff8200;
   background-color: var(--background-color);
+  transition: transform 0.2s;
+}
+
+.cards > ul > li:hover {
+  transform: translateY(-4px);
 }
 
 .cards .cards-card-body {
@@ -25,3 +31,4 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+  
